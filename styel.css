@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#BeansStudios {
+    width: 100%;
+    height: 100vh;
+    background-color: #27323E;
+    overflow: hidden;
+}
+
+#BeansStudios header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    justify-content: space-between;
+}
+
+#BeansStudios header p {
+    color: white;
+    font-weight: bold;
+}
+
+#BeansStudios header p>span {
+    color: orangered;
+
+}
+
+#BeansStudios header #header_logo {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    background-image: linear-gradient(135deg, orangered, orange);
+}
+
+#BeansStudios header #header_logo div:nth-child(1) {
+    width: 60%;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 2px;
+
+}
+
+#BeansStudios header #header_logo div:nth-child(2) {
+    width: 75%;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 2px;
+
+}
+
+#BeansStudios header #header_logo div:nth-child(3) {
+    width: 60%;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 2px;
+
+}
+
+#BeansStudios #BeansStudios_main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#BeansStudios #BeansStudios_main #BeansStudios_main_left {
+    width: 70%;
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 170px;
+    position: relative;
+}
+
+#BeansStudios #BeansStudios_main #BeansStudios_main_left div:nth-child(1) {
+    width: 130px;
+    height: 60px;
+    background-image: linear-gradient(135deg, orangered, orange);
+    font-size: 20px;
+    color: white;
+    font-weight: 540;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#BeansStudios #BeansStudios_main #BeansStudios_main_left h1 {
+    color: #fff;
+    font-size: 80px;
+    padding-top: 10px;
+}
+
+#BeansStudios #BeansStudios_main #BeansStudios_main_left p {
+    font-size: 23px;
+    font-weight: 550;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#BeansStudios #BeansStudios_main #BeansStudios_main_left div:nth-child(4) {
+    width: 200px;
+    height: 30px;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#BeansStudios #BeansStudios_main #BeansStudios_main_left div:nth-child(4)>i {
+    color: dodgerblue;
+    background-color: #fff;
+    box-shadow: 0 0 0 10px white;
+    border-radius: 50%;
+    font-size: 20px;
+
+}
+
+#BeansStudios #BeansStudios_main #BeansStudios_main_left div:nth-child(4)>i:hover {
+    font-size: 25px;
+    transition: .2s;
+    color: black;
+}
+
+#BeansStudios #BeansStudios_main #BeansStudios_main_left .btn1 {
+    padding: 10px 30px;
+    border-radius: 23px;
+    border: none;
+    background-image: linear-gradient(135deg, orangered, orange);
+    color: #fff;
+    font-weight: 550;
+    margin-top: 10px;
+}
+
+#BeansStudios #BeansStudios_main #BeansStudios_main_left #BeansStudios_main_left_ button {
+    padding: 10px 20px 30px 20px;
+    border-radius: 23px;
+    background-color: transparent;
+    position: absolute;
+    right: 25%;
+    bottom: 30%;
+    border-color: orange;
+}
+
+#BeansStudios #BeansStudios_main #BeansStudios_main_left #BeansStudios_main_left_ button>div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+#BeansStudios #BeansStudios_main #BeansStudios_main_right {
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    padding-top: 60px;
+}
+
+#BeansStudios_page2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+    display: flex;
+}
+
+#BeansStudios_page2 #BeansStudios_page2_left {
+    width: 50%;
+    height: 100%;
+    /* background-color: #666; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color: #fff;
+}
+
+#BeansStudios_page2 #BeansStudios_page2_left div {
+    width: 200px;
+    height: 30px;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: absolute;
+    bottom: 4%;
+    position: relative;
+}
+
+#BeansStudios_page2 #BeansStudios_page2_left div>:nth-child(2) {
+    margin-top: 10px;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+#BeansStudios_page2 #BeansStudios_page2_right {
+    width: 50%;
+    height: 100%;
+    /* background-color: #699966; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 60px;
+    justify-content: center;
+    position: relative;
+}
+
+#BeansStudios_page2 #BeansStudios_page2_right>div {
+    background-image: linear-gradient(135deg, orangered, orange);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+
+#BeansStudios_page2 #BeansStudios_page2_right>h1 {
+    position: absolute;
+    left: 9.9%;
+    top: 34.5%;
+    font-size: 45px;
+}
+
+#BeansStudios_page2 #BeansStudios_page2_right>p {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+#BeansStudios_page3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #27323E;
+    position: relative;
+    padding-top: 30px;
+}
+
+#BeansStudios_page3 .orange {
+    background-image: linear-gradient(135deg, orangered, orange);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 41.9%;
+
+
+}
+
+#BeansStudios_page3 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 40px;
+    left: 43%;
+    top: 30px;
+}
+
+#BeansStudios_page3>div:nth-child(3) {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+#BeansStudios_page3 #BeansStudios_page3_left {
+    width: 37%;
+    height: 100%;
+    /* background-color: #666; */
+    display: flex;
+    flex-direction: column;
+}
+
+#BeansStudios_page3 #BeansStudios_page3_left>div {
+    width: 330px;
+    height: 200px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#BeansStudios_page3 #BeansStudios_page3_left>div>:nth-child(1) {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: right;
+}
+
+#BeansStudios_page3 #BeansStudios_page3_left>div>:nth-child(2) {
+    width: 50px;
+    height: 50px;
+    border: 3px solid orange;
+    border-radius: 50%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+#BeansStudios_page3 #BeansStudios_page3_medium {
+    width: 26%;
+    height: 100%;
+    /* background-color: #6eff; */
+}
+
+#BeansStudios_page3 #BeansStudios_page3_medium>img {
+    position: absolute;
+    left: 28%;
+    top: 20%;
+}
+
+#BeansStudios_page3 #BeansStudios_page3_right {
+    width: 37%;
+    height: 100%;
+    /* background-color: #666; */
+    padding-top: 30px;
+}
+
+#BeansStudios_page3 #BeansStudios_page3_right>div {
+    width: 330px;
+    height: 200px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#BeansStudios_page3 #BeansStudios_page3_right>div>:nth-child(1) {
+    width: 50px;
+    height: 50px;
+    border: 3px solid orange;
+    border-radius: 50%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+#BeansStudios_page3 #BeansStudios_page3_right>div>:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+}
+
+#BeansStudios_page4 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    background-color: #212529;
+    position: relative;
+}
+
+#BeansStudios_page4>.orange {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(135deg, orangered, orange);
+    margin-left: 42%;
+    margin-bottom: 40px;
+}
+
+#BeansStudios_page4>h1 {
+    color: #fff;
+    position: absolute;
+    left: 43.5%;
+    top: 4.5%;
+    font-size: 40px;
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item {
+    width: 100%;
+    height: 80vh;
+    /* background-color: #fff; */
+    display: flex;
+
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_1 {
+    width: 33.3%;
+    height: 100%;
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_1>div {
+    display: flex;
+
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_1>img {
+    width: 510px;
+    height: 180px;
+
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_1>div>:nth-child(1)>img {
+    width: 260px;
+    height: 425px;
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_1>div>:nth-child(2)>img {
+    width: 250px;
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_1>div>:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_2 {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_2>img {
+    width: 100%;
+    height: 70%;
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_2 div {
+    display: flex;
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_2 div>img {
+    width: 253px;
+    height: 187px;
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_3 {
+    width: 33.3%;
+    height: 100%;
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_3>div {
+    display: flex;
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_3>div>img {
+    width: 259px;
+
+}
+
+#BeansStudios_page4 #BeansStudios_page4_item #BeansStudios_page4_item_3>img {
+    width: 520px;
+    height: 395px;
+}
+
+#BeansStudios_page5 {
+    width: 100%;
+    height: 100vh;
+    background-color: #27323E;
+    overflow: hidden;
+    position: relative;
+}
+
+#BeansStudios_page5>.orange {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(135deg, orangered, orange);
+    margin-left: 30px;
+    margin-left: 44%;
+    margin-top: 5%;
+}
+
+#BeansStudios_page5>h1 {
+    position: absolute;
+    top: 10.3%;
+    color: white;
+    font-size: 40px;
+    left: 45.3%;
+}
+
+#BeansStudios_page5 #BeansStudios_page5_img>img:nth-child(1) {
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+#BeansStudios_page5 #BeansStudios_page5_img>img:nth-child(2) {
+    position: absolute;
+    left: 33%;
+    top: 46%;
+}
+
+#BeansStudios_page5 #BeansStudios_page5_img>img:nth-child(3) {
+    position: absolute;
+    left: 41%;
+    top: 62%;
+}
+
+#BeansStudios_page5 #BeansStudios_page5_img>img:nth-child(4) {
+    position: absolute;
+    left: 41%;
+    top: 30%;
+}
+
+#BeansStudios_page5 #BeansStudios_page5_img>img:nth-child(5) {
+    position: absolute;
+    left: 49%;
+    top: 46%;
+}
+
+#BeansStudios_page5 #BeansStudios_page5_img>img:nth-child(6) {
+    position: absolute;
+    left: 57%;
+    top: 30%;
+}
+
+#BeansStudios_page6 {
+    widows: 100%;
+    height: 100vh;
+    background-color: #27323E;
+    display: flex;
+}
+
+#BeansStudios_page6 #BeansStudios_page6_left {
+    width: 50%;
+    height: 100%;
+    background-color: #5862;
+}
+
+#BeansStudios_page6 #BeansStudios_page6_right {
+    width: 50%;
+    height: 100%;
+    background-color: #465862;
+}
